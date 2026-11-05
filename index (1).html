@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V.Original | Smart Finds for Everyday Living</title>
+  <meta name="description" content="Top-rated home upgrades, aesthetic desk setups & smart kitchen finds. Updated daily!">
+  <style>
+    :root {
+      --red: #d91c1c;
+      --red-dark: #a81212;
+      --orange: #f08a3c;
+      --black: #1a1a1a;
+      --white: #ffffff;
+      --cream: #fff6ef;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(160deg, var(--red-dark) 0%, var(--red) 45%, var(--orange) 100%);
+      background-attachment: fixed;
+      color: var(--white);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+    .card { width: 100%; max-width: 420px; text-align: center; }
+
+    /* Logo styled like your red V.Original badge */
+    .logo {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      margin: 0 auto 18px;
+      background: radial-gradient(circle at 35% 25%, #ff5a3c, var(--red) 55%, var(--red-dark));
+      border: 5px solid var(--white);
+      box-shadow: 0 6px 18px rgba(0,0,0,.3);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--white);
+      font-weight: 800; font-size: 25px; letter-spacing: -.5px;
+      overflow: hidden;
+    }
+    .logo img { width: 100%; height: 100%; object-fit: cover; }
+
+    h1 { font-size: 28px; font-weight: 800; text-shadow: 0 2px 6px rgba(0,0,0,.25); }
+    .tagline { margin: 6px 0 4px; font-size: 16px; font-style: italic; font-weight: 600; }
+    .bio { font-size: 14px; opacity: .92; margin: 0 8px 22px; line-height: 1.5; }
+
+    .cats {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+      margin-bottom: 26px;
+    }
+    .cats span {
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.4);
+      padding: 5px 12px; border-radius: 999px;
+      font-size: 13px; font-weight: 600;
+    }
+
+    .links { display: flex; flex-direction: column; gap: 14px; }
+    .btn {
+      display: block;
+      padding: 17px 18px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      background: var(--white);
+      color: var(--black);
+      box-shadow: 0 4px 12px rgba(0,0,0,.18);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover, .btn:focus { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(0,0,0,.28); }
+    .btn.primary { background: var(--black); color: var(--white); }
+
+    .disclosure { margin-top: 30px; font-size: 12px; opacity: .85; line-height: 1.5; }
+    footer { margin-top: 10px; font-size: 12px; opacity: .75; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- To use your real logo: save it as logo.png next to this file and replace V.Original below with <img src="logo.png" alt="V.Original logo"> -->
+    <div class="logo">V.Original</div>
+
+    <h1>V.Original</h1>
+    <p class="tagline">Smart Finds for Everyday Living</p>
+    <p class="bio">Top-rated home upgrades, aesthetic desk setups &amp; smart kitchen finds. Updated daily!</p>
+
+    <div class="cats">
+      <span>🏠 Home</span><span>🍳 Kitchen</span><span>💄 Beauty</span><span>👜 Lifestyle</span><span>💻 Tech</span>
+    </div>
+
+    <nav class="links">
+      <a class="btn primary" href="https://facebook.com/groups/YOUR-GROUP-LINK" target="_blank" rel="noopener">🔗 Sali sa Tipid Tips PH Group!</a>
+      <a class="btn" href="https://YOUR-ECOFLOW-AFFILIATE-LINK" target="_blank" rel="noopener sponsored">🔌 Portable Power Station (EcoFlow)</a>
+      <a class="btn" href="https://YOUR-KITCHEN-AFFILIATE-LINK" target="_blank" rel="noopener sponsored">🍳 Smart Kitchen Space-Saver</a>
+    </nav>
+
+    <p class="disclosure">Disclosure: Some links above are affiliate links. I may earn a small commission at no extra cost to you.</p>
+    <footer>© V.Original</footer>
+  </main>
+</body>
+</html>
