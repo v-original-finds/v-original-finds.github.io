@@ -12,7 +12,6 @@
       --orange: #f08a3c;
       --black: #1a1a1a;
       --white: #ffffff;
-      --cream: #fff6ef;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -26,8 +25,6 @@
       padding: 40px 16px;
     }
     .card { width: 100%; max-width: 420px; text-align: center; }
-
-    /* Logo styled like your red V.Original badge */
     .logo {
       width: 120px; height: 120px;
       border-radius: 50%;
@@ -37,26 +34,20 @@
       box-shadow: 0 6px 18px rgba(0,0,0,.3);
       display: flex; align-items: center; justify-content: center;
       color: var(--white);
-      font-weight: 800; font-size: 25px; letter-spacing: -.5px;
+      font-weight: 800; font-size: 21px; letter-spacing: -.5px;
+      padding: 0 10px;
       overflow: hidden;
     }
-    .logo img { width: 100%; height: 100%; object-fit: cover; }
-
     h1 { font-size: 28px; font-weight: 800; text-shadow: 0 2px 6px rgba(0,0,0,.25); }
     .tagline { margin: 6px 0 4px; font-size: 16px; font-style: italic; font-weight: 600; }
     .bio { font-size: 14px; opacity: .92; margin: 0 8px 22px; line-height: 1.5; }
-
-    .cats {
-      display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
-      margin-bottom: 26px;
-    }
+    .cats { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 26px; }
     .cats span {
       background: rgba(255,255,255,.18);
       border: 1px solid rgba(255,255,255,.4);
       padding: 5px 12px; border-radius: 999px;
       font-size: 13px; font-weight: 600;
     }
-
     .links { display: flex; flex-direction: column; gap: 14px; }
     .btn {
       display: block;
@@ -72,14 +63,13 @@
     }
     .btn:hover, .btn:focus { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(0,0,0,.28); }
     .btn.primary { background: var(--black); color: var(--white); }
-
+    .section { font-size: 15px; font-weight: 800; margin-top: 10px; text-align: left; text-shadow: 0 1px 4px rgba(0,0,0,.25); }
     .disclosure { margin-top: 30px; font-size: 12px; opacity: .85; line-height: 1.5; }
     footer { margin-top: 10px; font-size: 12px; opacity: .75; }
   </style>
 </head>
 <body>
   <main class="card">
-    <!-- To use your real logo: save it as logo.png next to this file and replace V.Original below with <img src="logo.png" alt="V.Original logo"> -->
     <div class="logo">V.Original</div>
 
     <h1>V.Original</h1>
@@ -91,9 +81,16 @@
     </div>
 
     <nav class="links">
-      <a class="btn primary" href="https://facebook.com/groups/YOUR-GROUP-LINK" target="_blank" rel="noopener">🔗 Sali sa Tipid Tips PH Group!</a>
-      <a class="btn" href="https://YOUR-ECOFLOW-AFFILIATE-LINK" target="_blank" rel="noopener sponsored">🔌 Portable Power Station (EcoFlow)</a>
-      <a class="btn" href="https://YOUR-KITCHEN-AFFILIATE-LINK" target="_blank" rel="noopener sponsored">🍳 Smart Kitchen Space-Saver</a>
+      <a class="btn primary" href="https://www.facebook.com/groups/1901738877902247/" target="_blank" rel="noopener">🔗 Sali sa Tipid Tips PH Group!</a>
+
+      <h2 class="section">🔌 Portable Power Station (EcoFlow)</h2>
+      <a class="btn" href="https://s.shopee.ph/W7ye5qbkS" target="_blank" rel="noopener sponsored">🛒 EcoFlow – Shopee (Option 1)</a>
+      <a class="btn" href="https://s.shopee.ph/BV8FbVsTs" target="_blank" rel="noopener sponsored">🛒 EcoFlow – Shopee (Option 2)</a>
+
+      <h2 class="section">❄️ Air-Con Deflector</h2>
+      <a class="btn" href="https://s.shopee.ph/7puYJAwbpv" target="_blank" rel="noopener sponsored">🛒 Air-Con Deflector – Shopee</a>
+      <a class="btn" href="https://s.lazada.com.ph/s.ZnxNLf?t=p-i5mCBR2-s2Lamg0z" target="_blank" rel="noopener sponsored">🛒 Air-Con Deflector – Lazada</a>
+      <a class="btn" href="https://vt.tiktok.com/ZS9y3SNW1CWfS-CmdcW/" target="_blank" rel="noopener sponsored">🎵 Air-Con Deflector – TikTok Shop</a>
     </nav>
 
     <p class="disclosure">Disclosure: Some links above are affiliate links. I may earn a small commission at no extra cost to you.</p>
